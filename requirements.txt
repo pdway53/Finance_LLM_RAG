@@ -1,0 +1,9 @@
+pdfplumber
+tqdm
+rank_bm25
+jieba
+langchain                
+langchain-community      
+langchain-core           
+langchain-openai
+sentence-transformers         
