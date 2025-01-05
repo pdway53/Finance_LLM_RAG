@@ -53,3 +53,19 @@ python main.py --question_path dataset/preliminary/questions_example.json --sour
 ```shell
 python evaluate.py --question_path questions_example.json --source_path PDF_FOLDER_PATH --output_path rag_retrieve_predict.json --qa_gt_path ground_truths_example.json  --llm_answer 1 --output_qa_path ../datasets/dataset/preliminary/QA_ans.json
 ```
+
+
+### demo with streamlit
+
+執行demo 
+```shell
+streamlit run rag_engine.py
+```
+
+-若使用openIA model 填入 API key，選擇問題類型或上傳文件</br>
+-vector_stores 資料夾放入 embeddings 好的 fassi 目錄 </br>
+
+![image](https://github.com/pdway53/Finance_LLM_RAG/blob/main/streamlit2.PNG)
+
+### refernece
+1.https://medium.com/@cch.chichieh/rag%E5%AF%A6%E4%BD%9C%E6%95%99%E5%AD%B8-streamlit-langchain-llama2-c7d1dac2494e</br>
